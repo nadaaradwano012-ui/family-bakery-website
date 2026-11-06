@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Freshly baked bread, bagels, and cookies made with care at Family Bakery.">
+  <title>Family Bakery</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar" aria-label="Main navigation">
+    <div class="container nav-content">
+      <a class="logo" href="#hero" aria-label="Family Bakery home">
+        <i class="fa-solid fa-bread-slice" aria-hidden="true"></i>
+        <span>Family Bakery</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#offer">Our Offer</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content reveal">
+        <p class="welcome-text">Welcome to</p>
+        <h1>Family Bakery</h1>
+        <p class="subtitle">
+          We're a neighborhood bakery making fresh bread, delicious pastries,
+          and sweet treats with care every single day.
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Learn More</a>
+          <a href="#contact" class="btn btn-outline">Contact us</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll down to About section">
+        <span class="mouse">
+          <span class="dot"></span>
+        </span>
+      </a>
+    </section>
+
+    <section id="about" class="about section-bg-gray">
+      <div class="container row">
+        <div class="col img-col reveal">
+          <img
+            src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1100&q=85"
+            alt="Freshly baked artisan bread on a bakery counter"
+            loading="lazy">
+        </div>
+
+        <div class="col text-col reveal">
+          <h2>Who we are?</h2>
+          <p>
+            Family Bakery is all about simple ingredients, traditional recipes,
+            and freshly baked goods. We take pride in preparing bread and treats
+            that bring people together and make everyday moments a little sweeter.
+          </p>
+
+          <ul class="features-list">
+            <li><i class="fa-solid fa-leaf" aria-hidden="true"></i> We care about fresh, quality ingredients.</li>
+            <li><i class="fa-solid fa-users" aria-hidden="true"></i> We are trusted by our local community.</li>
+            <li><i class="fa-solid fa-heart" aria-hidden="true"></i> Everything is made with care.</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Freshly baked goods every day.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="location">
+      <div class="container row row-reverse">
+        <div class="col img-col reveal">
+          <img
+            src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1100&q=85"
+            alt="Warm and welcoming bakery cafe interior"
+            loading="lazy">
+        </div>
+
+        <div class="col text-col reveal">
+          <h2>Our Location</h2>
+          <p>
+            Our bakery is designed to feel warm and welcoming. Stop by, enjoy
+            the smell of freshly baked bread, and choose something delicious
+            to take home or enjoy with a cup of coffee.
+          </p>
+          <p>
+            We love being part of the neighborhood and look forward to welcoming
+            you whenever you visit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="offer" class="baking section-bg-gray">
+      <div class="container text-center">
+        <div class="section-heading reveal">
+          <h2>Our Baking</h2>
+          <p class="section-subtitle">
+            Discover some of our favorites, freshly prepared with care.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="baking-card reveal">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85"
+                alt="Fresh artisan bread loaves"
+                loading="lazy">
+            </div>
+            <h3>Superior Breads</h3>
+            <p>
+              Enjoy the simple pleasure of freshly baked bread, with a golden
+              crust and a soft, flavorful center.
+            </p>
+          </article>
+
+          <article class="baking-card reveal">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+                alt="Freshly baked pastries and croissants"
+                loading="lazy">
+            </div>
+            <h3>Bagels & Pastries</h3>
+            <p>
+              A delicious selection of baked favorites, perfect for breakfast,
+              a quick snack, or sharing with friends.
+            </p>
+          </article>
+
+          <article class="baking-card reveal">
+            <div class="card-img-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=900&q=85"
+                alt="Homemade cookies arranged on a tray"
+                loading="lazy">
+            </div>
+            <h3>Cookies</h3>
+            <p>
+              Sweet, comforting cookies baked until just right — a little treat
+              to make your day better.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-bg-gray">
+      <div class="container row">
+        <div class="col text-col reveal">
+          <h2>Contact Information</h2>
+          <p>
+            Have a question or want to know more about our freshly baked goods?
+            We'd be happy to hear from you. Visit us or get in touch using the
+            details below.
+          </p>
+          <p>Our contact details:</p>
+
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Manchester St 123-78B, Random 713, UK</li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i> +46 123 456 789</li>
+            <li><i class="fa-solid fa-headphones" aria-hidden="true"></i> +37 431 456 789</li>
+            <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> hello@sitename.com</li>
+          </ul>
+        </div>
+
+        <div class="col img-col reveal">
+          <img
+            src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=1100&q=85"
+            alt="Bakery display with freshly baked goods"
+            loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container grid-4">
+      <div class="footer-col">
+        <h4>About us</h4>
+        <p>
+          Family Bakery is a friendly neighborhood bakery serving fresh bread,
+          pastries, and sweet treats made with care.
+        </p>
+        <p>Good food, warm service, and something delicious for everyone.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Why we are special?</h4>
+        <ul>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Freshly baked every day.</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Quality ingredients.</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Recipes made with care.</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Friendly service.</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> A welcoming atmosphere.</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <ul>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Monday 10AM - 9PM</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Tuesday 10AM - 9PM</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Wednesday 10AM - 9PM</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Thursday 10AM - 10PM</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Friday 10AM - 10PM</li>
+          <li><i class="fa-solid fa-angle-right" aria-hidden="true"></i> Weekends 10AM - 11PM</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Details</h4>
+        <ul class="contact-details">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Manchester Road 123-78B, Silictown</li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i> +46 123 456 789</li>
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> hello@sitename.com</li>
+          <li><i class="fa-solid fa-globe" aria-hidden="true"></i> www.sitename.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="logo-large">
+        <i class="fa-solid fa-bread-slice" aria-hidden="true"></i> Family Bakery
+      </div>
+      <p>Copyright <span id="year"></span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+</body>
+</html>
